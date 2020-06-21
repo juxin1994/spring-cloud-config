@@ -7,5 +7,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:10000/eureka
-name: nick
-age: 23
+juxin:
+  name: nick
+  age: 23
