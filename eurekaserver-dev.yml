@@ -1,7 +1,8 @@
 spring:
   application:
     name: eureka-peer
-
+server:
+  port: 10000
 
 eureka:
   instance:
@@ -12,7 +13,7 @@ eureka:
     fetch-registry: false # 检索服务
     register-with-eureka: false # 是否将自己配置到注册中心
     service-url:
-      defaultZone: http://localhost:10001/eureka
+      defaultZone: http://localhost:10000/eureka
   server:
     ## 对等节点读取不到数据等多长时间
     wait-time-in-ms-when-sync-empty: 0
