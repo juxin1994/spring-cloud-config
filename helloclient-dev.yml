@@ -9,4 +9,4 @@ eureka:
       defaultZone: http://localhost:10000/eureka
 juxin:
   name: nick
-  age: 23
+  age: 24
