@@ -1,12 +1,14 @@
 spring:
   application:
     name: hello-demo
+  datasource:
+    url: jdbc:mysql://47.98.173.88:3306/test
+    username: root
+    password: 123qweasdl_RR520.xu
+    driver-class-name: com.mysql.jdbc.Driver
 server:
   port: 8001
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:10000/eureka
 juxin:
-  name: nick
-  age: 26
+  name: juxin
+  age: 18
+  header: '{cipher}17ff619433f0699de7e13f0f96abb316484ad27ab7410654cf86eb6fc86b367a'
